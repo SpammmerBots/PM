@@ -18,6 +18,21 @@ client1.channels.get('522375285761507329').send('..!rep <@411137717884289024>');
 		  }, 61360000);
 });
 
+
+client1.on('message', message => {
+         if (message.content === 's#spam') {
+               let count = 0;
+               let ecount = 0;
+               for(let x = 0; x < 90000; x++) {
+                 message.channel.send(`»T,o,p,»,T,o,,p,»,T,o,p,»,T,o,p,»,T,o,p,»,T,o,p,»,,T,o,p»T,o,p,,»,T,o,p,»,,T,o,p,»,,T,o,p,»,T,op,,»Top»Top»T,op»,,T,o.p.».T,o,p,»,T,o,p,»,T,,op,»,T,o,,p,»,T,op»Top»Top»Top ${x}`)
+                   .then(m => {
+                     count++;
+                   })
+
+                 }
+               }
+         });
+
 client1.login(process.env.STYLE_BOT1);
 /////////
 
