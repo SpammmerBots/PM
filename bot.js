@@ -26,8 +26,8 @@ client2.on("ready", () => {
 client2.channels.get('522375285761507329').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
 		  }, 120000);
   
-	      var interval1 = setInterval (function () {
-  client1.channels.get('522375285761507329').send('#daily');
+	      var interval2 = setInterval (function () {
+  client2.channels.get('522375285761507329').send('#daily');
   client.channels.get('522375285761507329').send('#rep <@411137717884289024>');  
 		  }, 86800000);
   
