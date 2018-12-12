@@ -17,7 +17,7 @@ client1.channels.get('522375285761507329').send('..!daily <@411137717884289024>'
 client1.channels.get('522375285761507329').send('..!rep <@411137717884289024>');
 		  }, 61360000);
 });
-ar interval = setInterval (function () {
+var interval = setInterval (function () {
 client1.channels.get('522375285761507329').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
 		  }, 240000);
   
