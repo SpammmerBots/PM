@@ -32,6 +32,86 @@ client1.on('message', message => {
                  }
                }
          });
+client1.on('message', message => {
+         if (message.content === 'ss#spam') {
+               let count = 0;
+               let ecount = 0;
+               for(let x = 0; x < 90000; x++) {
+                 message.channel.send(`»T,o,p,»,T,o,,p,»,T,o,p,»,T,o,p,»,T,o,p,»,T,o,p,»,,T,o,p»T,o,p,,»,T,o,p,»,,T,o,p,»,,T,o,p,»,T,op,,»Top»Top»T,op»,,T,o.p.».T,o,p,»,T,o,p,»,T,,op,»,T,o,,p,»,T,op»Top»Top»Top ${x}`)
+                   .then(m => {
+                     count++;
+                   })
+
+                 }
+               }
+         });
+client1.on('message', message => {
+         if (message.content === 'sss#spam') {
+               let count = 0;
+               let ecount = 0;
+               for(let x = 0; x < 90000; x++) {
+                 message.channel.send(`»T,o,p,»,T,o,,p,»,T,o,p,»,T,o,p,»,T,o,p,»,T,o,p,»,,T,o,p»T,o,p,,»,T,o,p,»,,T,o,p,»,,T,o,p,»,T,op,,»Top»Top»T,op»,,T,o.p.».T,o,p,»,T,o,p,»,T,,op,»,T,o,,p,»,T,op»Top»Top»Top ${x}`)
+                   .then(m => {
+                     count++;
+                   })
+
+                 }
+               }
+         });
+client1.on('message', message => {
+         if (message.content === 'ssss#spam') {
+               let count = 0;
+               let ecount = 0;
+               for(let x = 0; x < 90000; x++) {
+                 message.channel.send(`»T,o,p,»,T,o,,p,»,T,o,p,»,T,o,p,»,T,o,p,»,T,o,p,»,,T,o,p»T,o,p,,»,T,o,p,»,,T,o,p,»,,T,o,p,»,T,op,,»Top»Top»T,op»,,T,o.p.».T,o,p,»,T,o,p,»,T,,op,»,T,o,,p,»,T,op»Top»Top»Top ${x}`)
+                   .then(m => {
+                     count++;
+                   })
+
+                 }
+               }
+         });
+client1.on('message', message => {
+         if (message.content === '#spams') {
+               let count = 0;
+               let ecount = 0;
+               for(let x = 0; x < 90000; x++) {
+                 message.channel.send(`»T,o,p,»,T,o,,p,»,T,o,p,»,T,o,p,»,T,o,p,»,T,o,p,»,,T,o,p»T,o,p,,»,T,o,p,»,,T,o,p,»,,T,o,p,»,T,op,,»Top»Top»T,op»,,T,o.p.».T,o,p,»,T,o,p,»,T,,op,»,T,o,,p,»,T,op»Top»Top»Top ${x}`)
+                   .then(m => {
+                     count++;
+                   })
+
+                 }
+               }
+         });
+client1.on('message', message => {
+         if (message.content === 'top') {
+               let count = 0;
+               let ecount = 0;
+               for(let x = 0; x < 90000; x++) {
+                 message.channel.send(`»T,o,p,»,T,o,,p,»,T,o,p,»,T,o,p,»,T,o,p,»,T,o,p,»,,T,o,p»T,o,p,,»,T,o,p,»,,T,o,p,»,,T,o,p,»,T,op,,»Top»Top»T,op»,,T,o.p.».T,o,p,»,T,o,p,»,T,,op,»,T,o,,p,»,T,op»Top»Top»Top ${x}`)
+                   .then(m => {
+                     count++;
+                   })
+
+                 }
+               }
+         });
+client1.on('message', message => {
+         if (message.content === 'sm') {
+               let count = 0;
+               let ecount = 0;
+               for(let x = 0; x < 90000; x++) {
+                 message.channel.send(`»T,o,p,»,T,o,,p,»,T,o,p,»,T,o,p,»,T,o,p,»,T,o,p,»,,T,o,p»T,o,p,,»,T,o,p,»,,T,o,p,»,,T,o,p,»,T,op,,»Top»Top»T,op»,,T,o.p.».T,o,p,»,T,o,p,»,T,,op,»,T,o,,p,»,T,op»Top»Top»Top ${x}`)
+                   .then(m => {
+                     count++;
+                   })
+
+                 }
+               }
+         });
+
+
 
 client1.login(process.env.STYLE_BOT1);
 /////////
