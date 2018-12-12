@@ -4,7 +4,7 @@ const client1 = new Discord.Client();
 client1.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client1.channels.get('488455474035818496').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
+client1.channels.get('522375285761507329').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
 		  }, 120000);
   
 	      var interval1 = setInterval (function () {
