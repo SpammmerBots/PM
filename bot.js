@@ -22,14 +22,14 @@ client1.login(process.env.STYLE_BOT1);
 
 
 
-client1.on("ready", () => {
+client2.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client1.channels.get('488455474035818496').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
+client2.channels.get('488455474035818496').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
 		  }, 120000);
   
 	      var interval2 = setInterval (function () {
-  client1.channels.get('522375285761507329').send('#daily');
+  client2.channels.get('522375285761507329').send('#daily');
   client.channels.get('522375285761507329').send('#rep <@411137717884289024>');  
 		  }, 86800000);
   
@@ -38,18 +38,18 @@ client2.channels.get('522375285761507329').send('..!daily <@411137717884289024>'
 client2.channels.get('522375285761507329').send('..!rep <@411137717884289024>');
 		  }, 61360000);
 });
-client1.login(process.env.STYLE_BOT2);
+client2.login(process.env.STYLE_BOT2);
 
 
 
 client3.on("ready", () => {
 
 	      var interval = setInterval (function () {
-client1.channels.get('488455474035818496').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
+client3.channels.get('488455474035818496').send('لا إله الا الله, سبحان الله, الحمدالله, الله اكبر');
 		  }, 120000);
   
 	      var interval3 = setInterval (function () {
-  client1.channels.get('522375285761507329').send('#daily');
+  client3.channels.get('522375285761507329').send('#daily');
   client.channels.get('522375285761507329').send('#rep <@411137717884289024>');  
 		  }, 86800000);
   
